@@ -1,0 +1,12 @@
+{
+  "name": "limchile-whatsapp-intuitivo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test:intent": "node scripts/test-local.mjs"
+  }
+}

@@ -1,0 +1,10 @@
+[build]
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/whatsapp"
+  to = "/.netlify/functions/whatsapp"
+  status = 200
